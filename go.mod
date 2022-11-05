@@ -1,4 +1,4 @@
-module BknApp
+module GreyGoJack
 
 go 1.19
 
