@@ -71,7 +71,14 @@ func help() {
 		-- Help for GreyGoJack --
 	
 	usage: ./main -i [IP_ADDRESS] --api [API_KEY]
-	`
+---------------------------------------------------------
+	Installation:
+		- sudo apt-get update && sudo apt-get golang
+		- git clone https://github.com/sc4rfurry/GreyGoJack.git
+		- cd GreyGoJack
+		- go get
+		- go build
+`
 	println(helper)
 	os.Exit(0)
 }
